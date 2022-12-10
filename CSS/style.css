@@ -38,6 +38,8 @@ i {
 
 i:hover {
     color: blue;
+    transform: scale(1.5);
+    transition: ease all .5s;
 }
 
 input::placeholder, textarea::placeholder {
