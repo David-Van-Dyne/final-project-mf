@@ -39,7 +39,12 @@ i {
 i:hover {
     color: blue;
     transform: scale(1.5);
-    transition: ease all .5s;
+    transition: ease-out .5s;
+}
+
+i:not(:hover) {
+    transform: scale(1);
+    transition: ease-in .5s;
 }
 
 input::placeholder, textarea::placeholder {
