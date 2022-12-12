@@ -12,6 +12,17 @@ nav {
     font-family: 'Fraunces', serif;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: ease-out .5s;
+}
+
+nav a:not(:hover) {
+    transform: scale(1);
+    transition: ease-in .5s;
+}
+
 .hero {
     background-image: url(../IMG/pexels-sides-imagery-3141243.jpg);
     height: 800px;
@@ -31,7 +42,7 @@ i {
 }
 
 i:hover {
-    color: blue;
+    color: black;
     transform: scale(1.5);
     transition: ease-out .5s;
 }
